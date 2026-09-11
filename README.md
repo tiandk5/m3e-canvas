@@ -1,7 +1,7 @@
 <p align="center">
   <img src="app/icon.svg" width="72" alt="" />
 </p>
-
+ 
 <h1 align="center">M3E Canvas</h1>
 
 <p align="center">
