@@ -6,6 +6,8 @@ const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_ORIGIN ?? "https://lnkiai.github.io"),
   title: "M3E Canvas",
+  applicationName: "M3E Canvas",
+  alternates: { canonical: `${BASE}/` },
   description:
     "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. / Material 3 Expressive の画面をブラウザで組み立てて、そのままプロンプトに。",
   openGraph: {
@@ -21,6 +23,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
+  themeColor: "#6750A4",
 };
 
 export default function RootLayout({
